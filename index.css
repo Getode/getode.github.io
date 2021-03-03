@@ -1,0 +1,24 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;margin:0;outline:0;padding:0;vertical-align:baseline;}*,*:before,*:after {-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit;}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}body{background:#ffffff;}article,aside,details,div,figcaption,figure,footer,header,main,nav,section {display:block;box-sizing:border-box;}ol,ul {list-style:none;}table {border-collapse:separate;border-spacing:0;}caption,th,td {font-weight:normal;text-align:left;}blockquote:before,blockquote:after,q:before,q:after {content:"";}blockquote,q {-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;quotes:none;}a {color:#000000;}a img {border:0;}
+html{height:100%}
+body{
+font:normal 16px/18px sans-serif;
+height:100%;
+}
+a:hover{text-decoration:none;}
+p{margin-bottom:10px;}
+img{max-width:100%;height:auto;}
+iframe{max-width:100%;}
+input,textarea{outline: none;}
+
+.main_content{
+    min-height:100%;
+}
+.wrap{
+    width:1170px;
+    max-width:100%;
+    margin:0 auto;
+}
+.logo span{
+    font-family: Impact;
+    font-size:22px;
+}
