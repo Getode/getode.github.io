@@ -597,6 +597,7 @@ img[alt="firm logo"]{
 }
 .agreement_btn{
     width:300px;
+    max-width:100%;
     margin:15px auto 0;
     background: #fff;
     color:#0F204F;
@@ -829,7 +830,7 @@ footer{
         opacity: 0;
         visibility: hidden;
     }
-    .top_header .top_menu{width:100px}
+    .top_header .top_menu{width:80px}
     .top_menu>ul.show{
         z-index: 1;
         opacity: 1;
