@@ -799,6 +799,9 @@ footer{
         display: flex;
         align-items: center;
     }
+    .why_ure_we .title{
+        margin-bottom:35px;
+    }
     .block_ul{
         display: flex;
         flex-direction: column;
