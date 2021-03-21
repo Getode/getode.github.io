@@ -783,6 +783,21 @@ footer{
         top: 200px;
         opacity: 0.4;
         transform: scale(.8);
+        z-index:-1;
+    }
+    .big_ul li:before{
+        width:24px;
+        height:28px;
+    }
+    .big_ul li {
+        position: relative;
+        padding-left: 35px;
+        line-height: 20px;
+        font-size: 18px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
     }
     .block_ul{
         display: flex;
