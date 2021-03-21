@@ -128,9 +128,10 @@ header{
     width:60%;
     margin-top: 8px;
 }
-.search_block{
+.top_header .search_block{
     float: right;
     width: 40px;
+    position: initial;
 }
 .menu_link{
     color:#fff;
@@ -194,7 +195,8 @@ header{
     top: 18px;
 }
 .search_block form{
-    width: 300px;
+    width: 100%;
+    max-width: 100%;
     display: block;
     position: absolute;
     right: 0;
