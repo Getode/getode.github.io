@@ -908,11 +908,16 @@ footer{
     .stickers > div{
         flex: 0 0 33%;
         max-width: 33%;
+        max-height: 220px;
+        text-align: center;
     }
+    .sticker_img{margin-bottom:15px}
+    .stickers .wrap_sticker{min-height: 210px;}
 }
 @media (max-width:860px){
     .stickers > div{max-width:48%;width:48%;flex:0 0 48%;}
     .about_us > .col-xl-12{padding-left:15px}
+    .stickers .wrap_sticker{flex-direction:column;padding-top:25px}
 }
 @media (max-width:600px){
     .header_info_title {font-size:18px}
