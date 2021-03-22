@@ -10,7 +10,6 @@ jQuery(function($){
         $('.sub_menu.full_width').toggleClass('show');
         $(this).toggleClass('show')
         $('.search_block_link').removeClass('show');
-        $('.search_wrap form.').removeClass('show');
     });
     
     $('.burger').click(function(){
