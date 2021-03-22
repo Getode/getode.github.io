@@ -989,8 +989,6 @@ footer{
     flex: 0 0 49%;
     margin-bottom:25px;
     }
-    .header_info{
-    background-size: contain;}
     .main_content > .about_us{
         padding-top:0;
     }
@@ -1011,6 +1009,8 @@ footer{
     .header_info_title {
         font-size: 14px;
     }
+    .header_info{
+    background-size: contain;}
     .header_info{
         background-position: center 50px;
         background-color: #0F204F;
