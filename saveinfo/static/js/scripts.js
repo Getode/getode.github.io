@@ -6,7 +6,7 @@ jQuery(function($){
         $('.sub_menu.full_width').removeClass('show');
     });
     
-   $('.has-sub_menu').mouseenter(function(){
+   $('.has-sub_menu > a').mouseenter(function(){
         $('.sub_menu.full_width').toggleClass('show');
         $(this).toggleClass('show')
         $('.search_block_link').removeClass('show');
