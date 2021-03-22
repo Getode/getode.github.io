@@ -876,6 +876,8 @@ footer{
         flex: 0 0 100%;
         max-width: 100%;
         text-align: center;
+        padding-left: 0;
+        padding-right: 0;
     }
     .partners_ul{padding-left:15px;padding-right:15px;}
     .partners_ul li,
@@ -955,9 +957,32 @@ footer{
     }
     .footer_menu_ul{display:none}
     .copy{text-align:center;display:block;}
+    .sticker_img{transform: scale(0.8);}
+    .stickers .wrap_sticker{padding:10px 5px 0;min-height:156px}
+    .sticker_link{display: none;}
+    .sticker_title{font-size:9px;font-weight: 300;}
+    .sticker_img{margin-bottom:0px;margin-right:0}
+    .main_content > .why_ure_we{padding:40px 0}
+    .big_ul{padding-left:15px}
 }
 @media (max-width:480px){
+    /*
     .stickers > div{max-width:98%;width:98%;flex:0 0 98%;}
+    */
+    .sticker_img {
+        transform: scale(0.5);
+    }
+    .big_ul li{font-size:12px;margin-bottom: 20px;}
+    .title_count{font-size:100px}
+    .main_content > .servise{padding-top:0px}
+    .privilege_desc{font-size:16px}
+    .partners .title{margin-left:15px}
+    .privilege:after{background-position: center bottom;}
+    .privilege{padding-bottom:15px}
+    .privilege_ol{margin-top:80px}
+    .why_ure_we .before_block, .why_ure_we .title{padding-left:0}
+    .stickers .wrap_sticker{padding-top:0}
+    .stickers .wrap_sticker{min-height:146px}
     .partners_ul li,
     .partners_ul li:nth-of-type(4), .partners_ul li:nth-of-type(5), .partners_ul li:nth-of-type(6){
     max-width: 49%;
@@ -966,5 +991,40 @@ footer{
     }
     .header_info{
     background-size: contain;}
+    .main_content > .about_us{
+        padding-top:0;
+    }
+    .short_text{font-size:16px;}
+    .short_text ~ .short_link{margin-left:90px}
+    .title{font-size:16px; line-height:20px;}
+    .block_ul .block_li:before{margin-left:15px;}
+    .block_ul .block_li:before {
+        position: absolute;
+        left: -19px;
+        margin-top: -15px;
+        top: 50%;
+    }
+    .block_ul .block_li{padding-left:30px;font-size:12px;position: relative;}
+    .servise .title:after{padding-left:15px}
 }
-div{float:none !important}
+@media (max-width:375px){
+    .header_info_title {
+        font-size: 14px;
+    }
+    .header_info{
+        background-position: center 50px;
+        background-color: #0C1E40;
+    }
+    .header_info_desc{
+        font-size: 14px;
+        line-height:18px;
+    }
+    .before_block{
+        margin-bottom:20px;
+    }
+    .header_info_link{
+        width:200px;
+        height:44px;
+        line-height:46px;
+    }
+}
