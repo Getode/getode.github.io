@@ -5,12 +5,13 @@ jQuery(function($){
         $('.has-sub_menu a').removeClass('show');
         $('.sub_menu.full_width').removeClass('show');
     });
-    
-   $('.has-sub_menu > a').mouseenter(function(){
+    /*
+    $('.has-sub_menu > a').mouseenter(function(){
         $('.sub_menu.full_width').toggleClass('show');
         $(this).toggleClass('show')
         $('.search_block_link').removeClass('show');
     });
+    */
     
     $('.burger').click(function(){
         $('.top_menu>ul').toggleClass('show');
