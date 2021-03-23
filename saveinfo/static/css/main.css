@@ -132,7 +132,13 @@ header{
     z-index: 999;
     visibility: visible;
     opacity: 1;
+    box-shadow: 0 5px 5px #000;
 }
+.has-sub_menu:hover > a{
+    text-decoration: underline;
+}
+
+
 .logo_block{
     float: left;
     width: 227px;
@@ -944,6 +950,7 @@ footer{
     .sticker_img{margin-bottom:15px}
     .stickers .wrap_sticker{min-height: 210px;}
     .sub_menu.full_width{display:none}
+    .has-sub_menu > a:after{display:none}
 }
 @media (max-width:860px){
     .stickers > div{max-width:48%;width:48%;flex:0 0 48%;}
